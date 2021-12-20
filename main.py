@@ -4,7 +4,7 @@ C = int(input('Digite o terceiro lado do triangulo'))
 
 if (A > 0) and (B > 0) and (C > 0):
     if (A + B > C) and (A + C > B) and (B + C > A):
-        if A != B and A != C and B!= C:
+        if A != B and A != C and B != C:
             print('Triangulo escaleno')
         else:
             if A == B and A == C and B == C:
